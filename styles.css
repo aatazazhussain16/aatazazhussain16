@@ -1,0 +1,101 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #400d12; 
+  color: #FFD700; 
+  overflow: hidden;
+}
+
+.splash-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  color: #FFD700;
+}
+
+.splash-page h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #FFD700;
+  background: rgba(64, 13, 18, 0.7); 
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.splash-page .footer-text {
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  color: #FFD700;
+  text-align: center;
+  width: 100%;
+}
+
+
+.login-page, .register-page {
+  width: 300px;
+  padding: 2rem;
+  background-color: #400d12;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-page h2, .register-page h2 {
+  text-align: center;
+  color: #FFD700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  color: #FFD700;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #FFD700;
+  border-radius: 4px;
+  background-color: #fff0db; 
+  color: #400d12;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: #FFD700;
+  color: #400d12;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f7c600;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+  margin-top: 1rem;
+  display: inline-block;
+  text-align: center;
+}
